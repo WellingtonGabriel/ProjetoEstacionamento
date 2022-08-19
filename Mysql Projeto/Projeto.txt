@@ -1,0 +1,68 @@
+create database Projeto;
+
+use database Projeto;
+
+create table cliente(
+idCliente int not null auto_increment,
+nome varchar(45) not null,
+email varchar(45) not null,
+telefone1 varchar(45) not null,
+telefone2 varchar(45) not null,
+primary key (idCliente)
+)
+
+desc cliente;
+
+create table servico(
+idServico int not null auto_increment,
+nome varchar(45) not null, 
+preco decimal not null, 
+descricao varchar(45) null,
+primary key (idServico)
+)
+
+desc servico;
+
+create table vaga(
+idVaga int not null auto_increment,
+numero decimal not null,
+fkServico int not null,
+primary key (idVaga),
+foreign key (fkServico) references servico (idServico)
+)
+
+desc vaga;
+
+create table veiculo(
+idVeiculo int not null auto_increment,
+placa varchar(10) not null,
+nome varchar(45) null,
+cor varchar(45) null,
+fkCliente int null,
+primary key (idVeiculo),
+foreign key (fkCliente) references cliente (idCliente)
+)
+
+desc veiculo;
+
+create table aluguel(
+idAluguel int not null auto_increment,
+fkVaga int not null,
+livre tinyint not null,
+primary key (idAluguel),
+foreign key (fkVaga) references vaga (idVaga)
+)
+
+desc aluguel;
+
+create table venda(
+idVenda int not null auto_increment,
+dataInicial datetime not null,
+dataSaida datetime null,
+fkVeiculo int not null, 
+fkAluguel int not null,
+valorTotal float null,
+primary key (idVenda),
+foreign key (fkVeiculo) references veiculo (idVeiculo),
+foreign key (fkAluguel) references aluguel (idAluguel)
+)
