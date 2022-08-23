@@ -1,0 +1,30 @@
+Serviço Nacional de Aprendizagem Comercial
+Técnico em Informática
+ 
+Jhon Lenon Pereira de Oliveira
+João Henrique Bernardino Rivoli
+Mateus de Alencar Souza
+Wellington Gabriel Da Silva Galdino
+
+Trabalho de Desenvolvimento de um software
+Software Administração de Estacionamento  
+
+Guaratinguetá/SP
+2022
+
+João Henrique Bernardino Rivoli
+Mateus de Alencar Souza
+ 
+Trabalho de Desenvolvimento de um software
+Software Administração de Estacionamento 
+
+O Trabalho de Desenvolvimento de um software no Técnico em Informática do Serviço Nacional de Aprendizagem Comercial
+Docente: Jose Afranio Volpato Junior
+
+Guaratinguetá/SP
+2022
+Definição do Projeto 
+
+	
+
+O Projeto tem o intuito de facilitar e organizar o funcionamento de um estacionamento de veículos, demonstrando que a tecnologia pode ser utilizada para uma melhoria do serviço, o projeto tem na sua composição o software desenvolvido, um web site para ter um acesso mais prático para aqueles que desejam contratar o o nosso software e um aplicativo mobile para os clientes do estacionamento assim sabendo algumas informações como horário de entrada/saída, vaga onde está o veículo, valor pago pelo serviço,assim passando mais confiança do serviço.
